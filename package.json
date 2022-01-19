@@ -1,0 +1,48 @@
+{
+  "name": "@serenity-js/serenity-js-cucumber-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "serenity-bdd update",
+    "clean": "rimraf target",
+    "test": "failsafe clean test:execute test:report",
+    "test:execute": "cucumber-js",
+    "test:report": "serenity-bdd run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serenity-js/serenity-js-cucumber-template.git"
+  },
+  "keywords": [
+    "serenity-js",
+    "bdd",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Jan Molak <jan.molak@serenity.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/serenity-js/serenity-js-cucumber-template/issues"
+  },
+  "homepage": "http://serenity-js.org",
+  "engines": {
+    "node": "^12 || ^14 || ^16",
+    "npm": "^6 || ^7 || ^8.0.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "@serenity-js/assertions": "^2.32.7",
+    "@serenity-js/console-reporter": "^2.32.7",
+    "@serenity-js/core": "^2.32.7",
+    "@serenity-js/cucumber": "^2.32.7",
+    "@serenity-js/rest": "^2.32.7",
+    "@serenity-js/serenity-bdd": "^2.32.7",
+    "@types/node": "^16.11.7",
+    "npm-failsafe": "^0.4.3",
+    "rimraf": "^3.0.2",
+    "tiny-types": "^1.17.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
