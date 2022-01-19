@@ -7,11 +7,14 @@
 ## Patron de desarrollo
 * Se utiliza Screenplay pattern ya que esta centrado en el usuario y orientado a tareas, utiliza los principios S.O.L.I.D. Con screenplay se puede escribir el codigo en un lenguaje mas natural.
 ## Herramientas de compilación 
-### ![Node-js](docs/node-js.png "Logo Title Text 1")
+# ![Node-js](docs/node-js.png "Logo Title Text 1")
+### Node-js
 * Es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, el cual está basado en el motor V8 de Google.
-### ![NPM](docs/npm.png "Logo Title Text 1")
+# ![NPM](docs/npm.png "Logo Title Text 1")
+### NPM
 * Es el sistema de gestión de paquetes por defecto para Node.js
-### ![Cucumber-js](docs/cucumber-js.png "Logo Title Text 1")
+# ![Cucumber-js](docs/cucumber-js.png "Logo Title Text 1")
+### Cucumber-jsPM
 * Es una herramienta que permite escribir los casos de prueba en lenguaje gherkin.
 ## La estructura completa del proyecto es la siguiente:
 * Features: Utiliza lenguaje Gherkin y contienen los escenarios de negocio del caso de prueba. 
