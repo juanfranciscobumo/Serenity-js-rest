@@ -6,14 +6,12 @@ import { CreateUserBuilder } from "../builders/CreateUserBuilder";
 import { CreateUserResponse } from "../interfaces/dto/CreateUserResponse";
 import { ElJsonEs } from "../questions/ElJsonEs";
 import { CreateUsers } from "../tasks/CreateUsers";
-import datos from "../files/users.json";
 
 When('juan enter the user Data', (table) =>
     actorInTheSpotlight().attemptsTo(
         CreateUsers.withData(CreateUserBuilder
             .withName(table.rowsHash()['nombre'])
-            .andJob(table.rowsHash()['trabajo'])))
-);
+            .andJob(table.rowsHash()['trabajo']))));
 
 Then('could see the json with user data', function () {
   actorInTheSpotlight().attemptsTo(

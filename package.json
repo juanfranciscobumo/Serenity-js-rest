@@ -1,5 +1,5 @@
 {
-  "name": "@serenity-js/serenity-js-cucumber-template",
+  "name": "serenity-js-rest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serenity-js/serenity-js-cucumber-template.git"
+    "url": "https://github.com/juanfranciscobumo/Serenity-js-rest.git"
   },
   "keywords": [
     "serenity-js",
@@ -20,12 +20,8 @@
     "cucumber",
     "testing"
   ],
-  "author": "Jan Molak <jan.molak@serenity.io>",
+  "author": "Juan Francisco Builes Montoya",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/serenity-js/serenity-js-cucumber-template/issues"
-  },
-  "homepage": "http://serenity-js.org",
   "engines": {
     "node": "^12 || ^14 || ^16",
     "npm": "^6 || ^7 || ^8.0.0"

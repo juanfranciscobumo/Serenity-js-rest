@@ -14,8 +14,11 @@
 ### NPM
 * Es el sistema de gestión de paquetes por defecto para Node.js
 # ![Cucumber-js](docs/cucumber-js.png "Logo Title Text 1")
-### Cucumber-jsPM
+### Cucumber-js
 * Es una herramienta que permite escribir los casos de prueba en lenguaje gherkin.
+# ![Typescript](docs/typescript.png "Logo Title Text 1")
+### Typescript
+* TypeScript es un lenguaje de programación desarrollado y mantenido por Microsoft. Es un superconjunto sintáctico estricto de JavaScript y agrega escritura estática opcional al lenguaje. TypeScript está diseñado para el desarrollo de aplicaciones grandes y transcompila a JavaScript.
 ## La estructura completa del proyecto es la siguiente:
 * Features: Utiliza lenguaje Gherkin y contienen los escenarios de negocio del caso de prueba. 
 * Tasks: Clases que representan tareas que realiza el actor a nivel de proceso de negocio. 
