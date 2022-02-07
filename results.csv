@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create users","Create user","SUCCESS","2022-02-07T19:42:32.942Z[Etc/UTC]","0.0","0.37"
+"Look for users","Search for a user","SUCCESS","2022-02-07T19:42:33.313Z[Etc/UTC]","0.0","0.09"
